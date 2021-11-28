@@ -12,11 +12,11 @@ import logging
 logger = logging.getLogger(__name__)
 # Create your views here.
 
-register = template.Library()
+#register = template.Library()
 
-@register.simple_tag
-def define(val=None):
-  return val
+#@register.simple_tag
+#def define(val=None):
+#  return val
 
 def registration_request(request):
     context = {}
